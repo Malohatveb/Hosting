@@ -1,0 +1,52 @@
+.advice{
+    background: $body;
+    .container{
+
+        .bar{
+
+            .bigtitle{
+                font-family: 'mb';
+                font-size: 32px;
+                color: #fff;
+                text-align: center;
+                padding-top: 61px;
+            }
+
+            p{
+                font-family: 'm-r';
+                color: #fff;
+                font-size: 20px;
+                text-align: center;
+                padding-top: 29px;
+            }
+
+            .box__advice{
+                background: #FFFFFF;
+                box-shadow: 0px 10px 50px rgba(0, 59, 121, 0.0725798);
+                border-radius: 20px;
+                margin-top: 60px;
+                margin-bottom: 60px;
+                
+                .item__advice{
+                    padding: 30px;
+                    text-align: center;
+
+                    p{
+                        color: #002348;
+                        font-size: 24px;
+                        font-family: 's-sb';
+                    }
+
+                    .text{
+                        font-family: 's-r';
+                        color: $text;
+                        font-size: 16px;
+                        margin-top: 20px;
+                    }
+
+                }
+
+            }
+        }
+    }
+}

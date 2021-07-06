@@ -1,0 +1,70 @@
+.head{
+    background: $body;
+    .container{
+        .menu{
+            padding-top: 60px;
+            .left{
+                display: flex;
+                p{
+                    font-family: 'msb';
+                    font-size: 24px;
+                    color: #fff;
+                    padding-left: 20px;
+                }
+            }
+
+            .right{
+
+                .hamburger-menu{
+                    input{
+                        display: none;
+                    }
+                    .menu__box{
+                        display: flex;
+                        li{
+                            list-style-type: none;
+                            padding-left: 40px;
+    
+                            .menu__item{
+                                font-family: 'msb';
+                                font-size: 16px;
+                                color: #fff;
+                                text-decoration: none;
+    
+                            }
+                        }
+    
+                    }
+                }
+            }
+
+            .head__bottom{
+
+                margin-top: 175px;
+                .bigtitle{
+                    font-size: 40px;
+                    color: #fff;
+                    font-family: 'mb';
+                    padding-bottom: 30px;
+                }
+
+                .title{
+                    font-family: 'mm';
+                    font-size: 18px;
+                    color: #fff;
+                    padding-bottom: 30px;
+                }
+
+                button{
+                    width: 230px;
+                    height: 70px;
+                    border: 0;
+                    color: #fff;
+                    background: #EF7F3C;
+                    border-radius: 10px;
+                    margin-bottom: 242px;
+                }
+            }
+        }
+    }
+}

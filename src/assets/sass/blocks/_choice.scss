@@ -1,0 +1,64 @@
+.choice{
+    .container{
+        .bar{
+            text-align: center;
+            margin-top: 60px;
+
+            h1{
+                font-family: 'msb';
+                font-size: 16px;
+                color: #111111;
+                padding-bottom: 40px;
+            }
+
+            .bigtitle{
+                font-family: 'mb';
+                font-size: 32px;
+                color: #000000;
+                padding-bottom: 40px;
+            }
+
+            p{
+                font-family: 'mr';
+                font-size: 16px;
+                color: $text;
+            }
+
+            .img{
+                img{
+                    margin-top: 17px;
+                    margin-left: 100px;
+                    display: block;
+                }
+            }
+
+            .img2{
+                img{
+                    display: none;
+                }
+            }
+
+            .chekbox{
+                display: flex;
+                justify-content: center;
+                margin: 30px;
+                .box__p{
+                    .item{
+                        display: flex;
+                        padding: 10px;
+
+                        p{
+                            color: #000000;
+                            font-family: 'msb';
+                            font-size: 16px;
+                            padding-left: 10px;
+                        }
+
+                    }
+
+                }
+
+            }
+        }
+    }
+}

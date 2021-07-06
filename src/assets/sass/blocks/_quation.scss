@@ -1,0 +1,38 @@
+.quation{
+    .container{
+
+        .menu{
+            padding: 60px;
+            margin-left: 300px;
+
+            .title{
+                font-family: 'mb';
+                font-size: 32px;
+                color: #111111;
+                margin-bottom: 50px;
+            }
+            .qua__box{
+
+                .bottom{
+                    ul{
+                        li{
+                            list-style-type: none;
+                            padding-top: 30px;
+                            padding-bottom: 30px;
+                            border-bottom: 1px solid #DCDCDC;
+                            width: 509px;
+
+                            a{
+                                text-decoration: none;
+                                font-family: 'msb';
+                                font-size: 20px;
+                                color: #2B324C;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

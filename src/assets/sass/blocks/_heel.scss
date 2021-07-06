@@ -1,0 +1,31 @@
+.heel{
+    background: $body;
+    overflow: hidden;
+    .container{
+        .menu{
+            text-align: center;
+            padding: 270px 0px 70px 0px;
+            .title{
+                font-family: 'mb';
+                font-size: 32px;
+                color: #fff;
+            }
+
+            p{
+                font-family: 'mr';
+                font-size: 16px;
+                color: #fff;
+                padding-bottom: 20px;
+            }
+
+            button{
+                width: 230px;
+                height: 70px;
+                border: 0;
+                color: #fff;
+                background: #EF7F3C;
+                border-radius: 10px;
+            }
+        }
+    }
+}

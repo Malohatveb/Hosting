@@ -1,0 +1,25 @@
+.install{
+    background: $body;
+    .container{
+        .right{
+            text-align: right;
+            margin-right: 290px;
+            .bigtitle{
+                font-family: 'mb';
+                font-size: 32px;
+                color: #ffffff;
+                padding-top: 71px;
+                padding-bottom: 21px;
+            }
+
+            .text{
+                font-family: 'mr';
+                font-size: 16px;
+                color: #ffffff;
+                padding-bottom: 73px;
+            }
+
+        }
+
+    }
+}
